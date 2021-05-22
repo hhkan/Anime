@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo4"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo4"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".activitys.FavolistActivity"></activity>
+        <activity android:name=".activitys.ContactActivity" />
+        <activity android:name=".activitys.ReadActivity" />
+        <activity android:name=".activitys.ChapterActivity" />
+        <activity android:name=".activitys.ListCategoriesActivity" />
+        <activity android:name=".activitys.CategorieActivity" />
+        <activity
+            android:name=".activitys.AnimeActivity"
+            android:theme="@style/Theme.ThieuThuyet.windowtranlucenstattus" />
+        <activity android:name=".activitys.MainActivity"></activity>
+        <activity android:name=".activitys.SlashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="180dp"
+    android:layout_height="320dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container2"
+    android:layout_width="180dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:padding="4dp">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <ImageView
+            android:id="@+id/thumbnail2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loading_shape"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/khung" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/anime_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anime Title"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/studio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Studio"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+
+

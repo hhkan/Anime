@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_category"
+            android:icon="@drawable/category_item"
+            android:title="Danh mục" />
+        <item
+            android:id="@+id/item_favolite"
+            android:icon="@drawable/favolite_item"
+            android:title="Yêu thích" />
+        <item
+            android:id="@+id/item_facebook"
+            android:icon="@drawable/facebook"
+            android:title="Liên hệ" />
+        <item
+            android:id="@+id/item_out"
+            android:icon="@drawable/black_close"
+            android:title="Thoát" />
+
+    </group>
+</menu>
